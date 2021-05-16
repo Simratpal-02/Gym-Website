@@ -1,0 +1,55 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./Registration CSS.css">
+    <link rel="shortcut icon" type="image/jpg" href="../Pictures/google-forms.png">
+    <title>BURNOUT Registration</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../Pictures/bg video.mp4" type="video/mp4">
+      </video>
+
+    <div class="main">
+            <div class="contact">
+                <p class="title" align="center"><b>BURNOUT GYM  </b> Registration</p>
+            </div>
+            <div class="left">
+                <input class="name" type="text" align="center" id="n" placeholder="Full Name*">
+                <input class="phone" maxlength="10" minlength="10" type="number" align="center" id="phone" placeholder="Phone*">
+                <input class="age" type="number" align="center" maxlength="2" minlength="1" placeholder="Enter your age">
+                <input class="height" type="number" align="center" placeholder="Enter your height(in cm)">
+                <br>
+                <input type="text" placeholder="Timings" class="timings" id="timings" disabled> 
+                <span id="t1" class="t-btn1">Morning</span> 
+                <span id="t2" class="t-btn1"> Evening</span>
+                
+            </div>
+            
+            <div class="right">
+                <input class="email" id="email"type="email" align="center" placeholder="E-Mail*">
+                <input class="gender" type="text" align="center" placeholder="Gender">
+                <input class="bmi" type="number" align="center" placeholder="Enter your BMI">
+                <input class="wheight" type="number" align="center" placeholder="Enter your weight(in kg)">
+                <br>
+                <input type="text" placeholder="Plans" class="plan" disabled> 
+                <span class="plan-btn" id="p1">1 Month</span> <span class="plan-btn" id="p2"> 3 Months</span>
+            </div>
+            
+            <textarea class="txt-area" rows="7" cols="70" placeholder="Medical Conditions (if any)"></textarea>
+
+            <div class="button" id="submit">
+                <div class="container">
+                    <div class="tick">
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+
+    <script src="./app1.js"></script>
+
+</body>
+
+</html>
+
